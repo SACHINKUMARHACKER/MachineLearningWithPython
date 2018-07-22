@@ -7,6 +7,7 @@ Its a python perceptron
 @author: Dell
 """
 
+#%%
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -32,7 +33,7 @@ class Perceptron(object):
     def predict(self, X):
         return np.where(self.net_input(X) >= 0.0, 1, -1)
 
-df = pd.read_csv('iris.csv', header = None)
+df = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data', header = None)
 
 
 y = df.iloc[0:100, 4].values
