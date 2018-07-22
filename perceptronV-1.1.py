@@ -33,7 +33,7 @@ class Perceptron(object):
     def predict(self, X):
         return np.where(self.net_input(X) >= 0.0, 1, -1)
 
-df = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data', header = None)
+df = pd.read_csv('E:\Git_Projects\machine learning\MachineLearningWithPython\iris.csv', header = None)
 
 
 y = df.iloc[0:100, 4].values
