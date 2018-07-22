@@ -4,7 +4,7 @@ Created on Sun Mar  4 11:06:11 2018
 
 Its a python perceptron
 
-@author: Dell
+@author: Acer
 """
 
 #%%
